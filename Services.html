@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Services - Ryusuke</title>
+  <link rel="stylesheet" href="services.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: black;
+  font-size: 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav a {
+  color:#ff4f81;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px 50px;
+}
+
+.services h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #222;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 18%;
+  min-width: 150px;
+}
+
+.service-card i {
+  font-size: 40px;
+  color: #b8744b;
+  margin-bottom: 10px;
+}
+
+.service-card h2 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: rgb(14, 206, 46);
+}
+
+.service-card p {
+  font-size: 12px;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #00d4ff;
+  margin: 50px 0 30px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 22%;
+  min-width: 150px;
+}
+
+.img-placeholder {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-placeholder i {
+  font-size: 40px;
+  color: #ccc;
+}
+
+.project-card p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+footer .socials {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: black;
+}
+
+footer .socials i {
+  font-size: 20px;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s;
+}
+
+footer .socials i:hover {
+  color: #ff4f81;
+}
+
+footer {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.foot {
+  margin-left: 20px;
+  
+}
+
+
+</style>
+<body>
+
+<header>
+  <div class="logo"><img src="images/R logo.jpg" alt="Logo" /></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="Aboutme.html">About me</a>
+    <a href="Services.html">Services</a>
+    <a href="Contacts.html">Contacts</a>
+  </nav>
+</header>
+
+<main>
+  <section class="services">
+    <h1>My Services</h1>
+    <div class="service-items">
+      <div class="service-card">
+        <i class="fas fa-puzzle-piece"></i>
+        <img src="images/s1.jpg" class="fas fa-puzzle-piece" width="100%"></img>
+        <h2>Website Design & Development</h2>
+        <p>Clean, responsive, and modern websites built from scratch.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-puzzle-piece"></i>
+        <img src="images/s2.jpeg" class="fas fa-puzzle-piece" width="100%"></img>
+        <h2>Website Maintenance & Updates</h2>
+        <p>Ongoing support, bug fixes, and content updates.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-puzzle-piece"></i>
+        <img src="images/s3.jpg" class="fas fa-puzzle-piece" width="100%"></img>
+        <h2>UI Enhancements</h2>
+        <p>Adding animations, transitions, and interactive elements.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-puzzle-piece"></i>
+        <img src="images/s4.png" class="fas fa-puzzle-piece" width="100%"></img>
+        <h2>Mobile-Friendly Design</h2>
+        <p>Ensure your site looks great on all devices.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-puzzle-piece"></i>
+        <img src="images/s5.jpg" class="fas fa-puzzle-piece" width="100%"></img>
+        <h2>Landing Pages</h2>
+        <p>High-converting single-page sites for products, events, or promotions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>Recent Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="img-placeholder"><i class="fas fa-image"><img src="images/proj.png" class="fas fa-puzzle-piece" width="100%"></img></i></div>
+        <p>Personal Portfolio</p>
+      </div>
+      <div class="project-card">
+        <div class="img-placeholder"><i class="fas fa-image"><img src="images/proj2.png" class="fas fa-puzzle-piece" width="100%"></img></i></div>
+        <p>Simple Blog Layout</p>
+      </div>
+      <div class="project-card">
+        <div class="img-placeholder"><i class="fas fa-image"><img src="images/s5.jpg" class="fas fa-puzzle-piece" width="100%"></img>
+        </i></div>
+        <p>Weather App (API-based)</p>
+      </div>
+
+      <footer>
+        <a href="https://www.facebook.com/ryusuke.salcedo.2005"><img class="foot" src="images/Fb logo.png" alt="Fb logo" width="40px" height="20px"></a>
+        <a href="https://www.instagram.com/xryu_17/"><img class="foot" src="images/Ig logo.png" alt="Instagram logo" width="40px" height="23px"></a>
+        <a href="https://web.whatsapp.com/"><img class="foot" src="images/whatsapp logo.jpg" alt="Whatsapp logo" width="40px" height="20px"></a>
+        <a href="https://web.telegram.org/k/"><img class="foot" src="images/Telegram logo.png" alt="Telegram logo" width="40px" height="20px"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox"><img class="foot" src="images/gmail logo.jpg" alt="Gmail logo" width="40px" height="20px"></a>
+        <a href="Contacts.html"><img class="foot" src="images/phone number logo.png" alt="Phone number logo" width="40px" height="20px"></a>
+    </footer>
+
+</body>
+</html>
